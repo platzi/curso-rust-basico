@@ -1,0 +1,38 @@
+TIPO; TAG; TEXTO; VIDA
+SITUACION; INICIO; Eres un aventurero novato y estás a punto de entrar en una oscura y profunda cueva llena de Goblins malignos.; 0
+OPCION; ENTRADA; Entrar y comenzar la aventura;
+SITUACION; ENTRADA; Esta muy oscuro y no se ve nada. Te preguntas si existe alguna manera de hacer las cosas más fáciles...;
+OPCION; CAIDA; Seguir avanzando a tientas en la oscuridad;
+OPCION; MOCHILA; Buscar en tu mochila algo que pueda ser de utilidad;
+SITUACION; CAIDA; Sin darte cuenta no notas el suelo debajo de tus pies y empiezas a caer. Al fondo del foso hay muchas piedras afiladas...; -1000
+SITUACION; MOCHILA; En la oscuridad empiezas a palpar dentro de tu mochila. Por suerte trajiste los materiales necesarios para crear y encender una antorcha;
+OPCION; LUZ; Encender la antorcha y continuar;
+SITUACION; LUZ; Al fin puedes ver algo en la oscuridad. La cueva tiene el techo bajo y es bastante húmeda. Tras avanzar un poco acabas llegando a una bifurcación;
+OPCION; IZQUIERDA; Ir por la izquierda (se ve una leve luz);
+OPCION; DERECHA; Ir por la derecha (el camino está totalmente oscuro);
+SITUACION; IZQUIERDA; Entras por el camino de la izquierda ya que ves una leve luz al fondo. Cuando llegas descubres que hay decenas de goblins sentados al lado de una hoguera. ¡Nada más verte te atacan todos!; -1000
+SITUACION; DERECHA; Te adentras por el oscuro tunel de la derecha. El camino sube y al final acabas llegando a un agujero donde se ve algo de luz. Al asomarte descubres que hay muchos goblins sentados alrededor de una hoguera.;
+OPCION; PASAR; Sería peligroso hacer nada, es mejor que lo dejes estar y continues por el tunel.;
+OPCION; EXAMINAR; A lo mejor puedes acabar con los goblins si tienes algo de utilidad en la mochila.;
+SITUACION; EXAMINAR; Tras revisar tu mochila, descubres que tienes algunas cosas que podrían servirte para acabar con los Goblins;
+OPCION; BOMBA; Tienes aceite, una cantimplora y una cuerda, parece que puedes fabricar una bomba para lanzar a los goblins;
+OPCION; PUÑAL; Tienes un puñal arrojadizo. Observas que encima de los goblins hay cajas pesadas colgadas con poleas. Podrías intentar cortar la cuerda lanzando el puñal para aplastar a los goblins;
+SITUACION; BOMBA; Preparas la bomba, la enciendes y la lanzas. Cuando explota, todos los goblins mueren con la explosión. Sin embargo, la fuerza de la onda expansiva hace que el techo se derrumbe y encuentras tu tumba bajo toneladas de roca...; -1000
+SITUACION; PUÑAL; Apuntas atentamente y logras cortar la cuerda. Todos los goblins mueren aplastados. ¡Bien hecho!;
+OPCION; REVISAR; Bajar a revisar si puedes encontrar algo útil en el campamento de los goblins;
+OPCION; PASAR; Continuar por el camino que estabas siguiendo y dejar atrás el campamento de los goblins;
+SITUACION; REVISAR; Bajas hasta el campamento y registras a los goblins y las cajas cercanas. Encuentras una espada bastante afilada que parece que los golins han robado recientemente. Esto te ayudará a sobrevivir (Superviviencia +50); 50
+OPCION; PASAR; Continuar adentrándose en la cueva;
+SITUACION; PASAR; Sigues avanzando en la oscuridad. Antes de darte cuenta, ¡un pequeño goblin aparece por sorpresa!;
+OPCION; PUÑETAZO; El goblin no parece muy grande, atácale con un puñetazo directo;
+OPCION; PLACAJE; Intenta placar al goblin para derribarle y acabar con el en el suelo;
+OPCION; PIEDRA; Ves una piedra bastante grande delante. Cógela y lanzala al goblin para hacerle bastante daño;
+SITUACION; PUÑETAZO; Le das un puñetazo directo al goblin en la cara pero inesperadamente, es más resistente de lo que parece. Logra morderte y hacerte daño (Supervivencia - 50); -50
+OPCION; PLACAJE; Intenta placar al goblin para derribarle y acabar con el en el suelo;
+OPCION; PIEDRA; Ves una piedra bastante grande delante. Cógela y lanzala al goblin para hacerle bastante daño;
+SITUACION; PLACAJE; Embistes al goblin ya que es más pequeño que tu. Logras derribarle al suelo pero el goblin es muy ágil. Mientas forcejeais, el goblin te araña con sus afiladas garras (Supervivencia -30); -30
+OPCION; PIEDRA; Ves una piedra bastante grande delante. Cógela y lanzala al goblin para hacerle bastante daño;
+SITUACION; PIEDRA; Coges una piedra del suelo y se la lanzas al goblin directamente. Le alcanzas en la cabeza y acabas con el al instante. ¡Bien hecho!;
+OPCION; CADAVER; Examinar el cadaver para ver si tiene algo útil;
+SITUACION; CADAVER; El goblin llevaba un pequeño zurrón con cosas que ha robado recientemente. Logras hacerte con una poción curativa y algunos trapos que se pueden usar a modo de vendajes (Supervivencia +20); 20
+OPCION; BOVEDA; Recoger todo y continuar hacia las profundidades;
