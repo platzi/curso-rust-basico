@@ -1,6 +1,5 @@
 # Curso Básico de Rust
-Este es el repositorio de todos los proyectos del Curso Básico de Rust de Platzi 💚 
-
+Este es el repositorio de todos los proyectos del [Curso Básico de Rust de Platzi](https://platzi.com/l/rustbasico/)  💚 
 
 En este repositorio encontraras todos los ejemplos vistos en el curso 
 
@@ -8,7 +7,7 @@ En este repositorio encontraras todos los ejemplos vistos en el curso
 <img align="right" height="auto" width="200" src="https://github.com/HectorPulido/HectorPulido/raw/master/img/pequesoft.png"/>
 </a>
 
-* [Creando proyectp](https://github.com/platzi/curso-rust-basico/tree/clase-3-creando-proyecto)
+* [Creando proyecto](https://github.com/platzi/curso-rust-basico/tree/clase-3-creando-proyecto)
 * [Variables](https://github.com/platzi/curso-rust-basico/tree/clase-4-variables)
 * [Obtener datos](https://github.com/platzi/curso-rust-basico/tree/clase-5-recibiendo-datos)
 * [Condicionales](https://github.com/platzi/curso-rust-basico/tree/clase-6-condicionales)
